@@ -1,0 +1,70 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+/* INIZIO HEADER */
+header {
+
+    background-color: blue;
+
+    min-height: 80px;
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.container {
+
+    background-color: coral;
+
+    height: 40px;
+
+    min-width: 60%;
+
+    padding: 7px;
+
+    border: 2px dashed black;
+
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+.logo-container {
+
+    width: 20%;
+
+    border-right: 2px dashed black;
+
+}
+
+.login-container {
+
+    text-align: right;
+
+    width: 20%;
+
+    border-left: 2px dashed black;
+
+}
+
+
+ul > li {
+
+    display: inline;
+
+    list-style: none;
+
+}
