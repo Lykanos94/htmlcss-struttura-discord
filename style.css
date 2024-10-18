@@ -68,6 +68,12 @@ ul > li {
     list-style: none;
 
 }
+
+li a {
+
+    text-decoration: none;
+
+}
 /* FINE SEZIONE HEADER */
 /* INIZIO SECTION */
 /* SEZIONE FUCSIA */
@@ -208,7 +214,7 @@ hr {
 
 .mega-giallo {
 
-    background-color: rgb(3, 140, 252);
+    background-color: rgb(255, 251, 44);
 
     min-width: 1100px;
 
@@ -217,3 +223,92 @@ hr {
     border: 2px dashed black;
 
 }
+/* FINE SECTION */
+/* INIZIO FOOTER */
+
+.primo-footer-container {
+
+    background-color: rgba(0, 0, 0, 0.815);
+
+    min-width: 700px;
+
+    min-height: 600px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.div-grande-rosso {
+
+    background-color: rgb(255, 0, 0);
+
+    min-width: 300px;
+
+    min-height: 550px;
+
+    border: 2px dashed black;
+
+}
+
+.div-piccolo {
+
+    background-color: rgb(0, 150, 125);
+
+    min-width: 200px;
+
+    min-height: 550px;
+
+    border: 2px dashed black;
+
+}
+
+.secondo-footer-container {
+
+    background-color: rgba(0, 0, 0, 0.815);
+
+    min-width: 700px;
+
+    min-height: 150px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.div-finale {
+
+    background-color: rgb(255, 145, 0);
+
+    min-width: 1100px;
+
+    min-height: 80px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+
+}
+
+.div-sotto-div-finale {
+
+    background-color: darkkhaki;
+
+    padding: 10px;
+
+    border: 2px dashed black;
+
+}
+/* FINE FOOTER */
+
+
+
