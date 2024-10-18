@@ -7,10 +7,10 @@
     box-sizing: border-box;
 
 }
-/* INIZIO HEADER */
+/* INIZIO SEZIONE HEADER */
 header {
 
-    background-color: blue;
+    background-color: rgb(104, 225, 255);
 
     min-height: 80px;
 
@@ -66,5 +66,154 @@ ul > li {
     display: inline;
 
     list-style: none;
+
+}
+/* FINE SEZIONE HEADER */
+/* INIZIO SECTION */
+/* SEZIONE FUCSIA */
+.section-fucsiablu {
+
+    background-color: rgb(3, 49, 146);
+
+    min-height: 500px;
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.div-fucsia {
+
+    background-color: rgb(255, 99, 247);
+
+    width: 50%;
+
+    min-height: 400px;
+
+    border: 2px dashed black;
+
+}
+
+hr {
+
+    height: 5px;
+
+    background-color: grey;
+
+}
+
+/* SEZIONE BIANCOROSA */
+.section-biancorosa {
+
+    background-color: white;
+
+    min-height: 600px;
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.div-celeste {
+
+    background-color: rgb(3, 140, 252);
+
+    min-width: 700px;
+
+    min-height: 500px;
+
+    border: 2px dashed black;
+
+}
+
+.div-rosa {
+
+    background-color: rgb(255, 160, 234);
+
+    min-width: 400px;
+
+    min-height: 500px;
+
+    border: 2px dashed black;
+
+}
+/* SEZIONE GRIGIO */
+
+.section-grigio {
+
+    background-color: gray;
+
+    min-height: 600px;
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.div-verde {
+
+    background-color: rgb(16, 177, 29);
+
+    min-width: 400px;
+
+    min-height: 500px;
+
+    border: 2px dashed black;
+
+}
+
+.div-azzurro {
+
+    background-color: rgb(3, 140, 252);
+
+    min-width: 700px;
+
+    min-height: 500px;
+
+    border: 2px dashed black;
+
+}
+/* SEZIONE MEGA */
+
+.section-mega {
+
+    background-color: lightgrey;
+
+    min-height: 1000px;
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+.mega-giallo {
+
+    background-color: rgb(3, 140, 252);
+
+    min-width: 1100px;
+
+    min-height: 900px;
+
+    border: 2px dashed black;
 
 }
